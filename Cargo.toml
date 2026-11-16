@@ -1,0 +1,10 @@
+[package]
+name = "SigmaOS-arch-driver"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS arch-driver component"
+
+[lib]
+name = "arch_driver"
+path = "src/lib.rs"
