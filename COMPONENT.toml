@@ -3,12 +3,12 @@ name = "SigmaOS-arch-driver"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "arch-driver component"
+description = "Arch Linux driver for SigmaOS"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
